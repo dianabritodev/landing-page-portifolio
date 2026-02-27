@@ -1,0 +1,109 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'segoe-UI', Arial, sans-serif;
+    background-color: #0f0f1a;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #bdbdbd;
+    font-size: 18px;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 22px;
+    border: 1px solid #7b2cbf;
+    color: #7b2cbf;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #7b2cbf;
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    padding: 70px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* HABILIDADES */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    border: 1px solid #2a2a40;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.skill-card:hover {
+    border-color: #7b2cbf;
+}
+
+/* CONTATO */
+.botoes-contato {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botoes-contato a {
+    text-decoration: none;
+    color: #7b2cbf;
+    border: 1px solid #7b2cbf;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.botoes-contato a:hover {
+    background-color: #7b2cbf;
+    color: white;
+}
